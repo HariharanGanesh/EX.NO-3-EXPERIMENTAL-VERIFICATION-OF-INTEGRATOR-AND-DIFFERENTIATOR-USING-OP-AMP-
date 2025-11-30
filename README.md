@@ -1,8 +1,8 @@
 3. ##**EX.NO:
 ** 3  EXPERIMENTAL VERIFICATION OF INTEGRATOR AND DIFFERENTIATOR USING OP-AMP 
             
-**DATE:**  
-             3A INTEGRATOR
+
+     
 ---
 
 ## AIM
@@ -36,21 +36,21 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
-<img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
+![WhatsApp Image 2025-11-30 at 22 28 50_adee2bb5](https://github.com/user-attachments/assets/c308ae4f-2d01-4bbb-9189-94cac91d3c90)
 
 
 ## MODEL GRAPH
-<img width="556" height="380" alt="image" src="https://github.com/user-attachments/assets/caa7461c-69f7-4636-8e31-eea6db6efbb5" />
+![WhatsApp Image 2025-11-30 at 22 30 08_bb4d1679](https://github.com/user-attachments/assets/da0459af-edfe-4991-87cc-fac83e713fd3)
 
-<img width="847" height="553" alt="image" src="https://github.com/user-attachments/assets/d8d3e586-8e58-47ba-baae-2794c7955d51" />
+
+
 
 ---
 
 ## DESIGN
 
-To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
-We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
-We get , R1 =	and hence Rf = 	
+![WhatsApp Image 2025-11-30 at 22 35 47_7644c2ca](https://github.com/user-attachments/assets/93dcd061-4813-4e20-b367-4b3c912c9887)
+	
 
 ## PROCEDURE
 
@@ -61,19 +61,17 @@ We get , R1 =	and hence Rf =
 
 
 ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
-		
+![WhatsApp Image 2025-11-30 at 22 29 23_e12947fd](https://github.com/user-attachments/assets/136dc12f-b6a4-4b6c-a644-5a1fbd10577e)
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-30 at 22 30 36_587266e0](https://github.com/user-attachments/assets/7b3b69a8-4272-41c6-b286-356a4d9c4d07)
 
 
 ---
-**DATE:**  
+  
              3 B DIFFERENTIATOR
 ---
 
@@ -109,36 +107,22 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-<img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
+![WhatsApp Image 2025-11-30 at 22 26 27_3fcbf18e](https://github.com/user-attachments/assets/7b822737-a72a-456d-b19d-462e2314f60f)
 
 
 
 ## MODEL GRAPH
 
-(i)	 SINE WAVE INPUT
+![WhatsApp Image 2025-11-30 at 22 27 24_049e0561](https://github.com/user-attachments/assets/af756539-f5a1-4fcf-af18-eebe6527a41b)
 
-<img width="687" height="479" alt="image" src="https://github.com/user-attachments/assets/c89226c0-c2bb-4544-b355-27fc0d923f1a" />
----
-
-AND
-
-(ii) SQUARE WAVE INPUT
-
-<img width="758" height="447" alt="image" src="https://github.com/user-attachments/assets/cda33b00-c40c-490f-a9bd-e06107119c25" />
 
 
 ---
 
 ## DESIGN
 
-Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ Select fa = fmax = 100 HZ = 1 / 2πRFC1
-Let C1 = 0.1μF
-Then RF = 1 / 2π(102)(10-7)
-= 15.9KΩ
-Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
-= 1.59KΩ Since RFCF = R1C1
-We get, CF = (1.59*103*10-7) / 15.9*103
-= 0.01μF
+![WhatsApp Image 2025-11-30 at 22 34 30_b68d18fe](https://github.com/user-attachments/assets/1c3ba8cb-f527-44a3-8af7-1159c4c50cd3)
+
 
 
 ## PROCEDURE
@@ -149,15 +133,15 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
  ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
+![WhatsApp Image 2025-11-30 at 22 26 56_af72db57](https://github.com/user-attachments/assets/7f6ae92c-c4e7-413c-a581-dcd75d51c87a)
+
 		
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
----
+![WhatsApp Image 2025-11-30 at 22 27 56_4360a14d](https://github.com/user-attachments/assets/cf994634-5d23-4cf5-b762-5b688e958dd5)
+![WhatsApp Image 2025-11-30 at 22 28 28_3902a6e0](https://github.com/user-attachments/assets/cba1aed2-c2c9-44c3-8a66-732a2671e283)
+
 
 RESULT:
 Thus an Integrator and Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
